@@ -10,13 +10,17 @@ import ColorInit from "@/helper/ColorInit";
 import Preloader from "@/helper/Preloader";
 import ScrollToTopInit from "@/helper/ScrollToTopInit";
 
-export const metadata = {
-  title: "APL Trading - B2B Product Sourcing Marketplace",
-  description:
-    "APL Trading is a B2B product sourcing and inquiry marketplace. Browse and request quotes for industrial products, raw materials, electronics, and more.",
-};
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  return {
+    title: `${slug.replace(/-/g, " ")} | APL Trading`,
+    description:
+      "APL Trading is a B2B product sourcing and inquiry marketplace. Browse and request quotes for industrial products, raw materials, electronics, and more.",
+  };
+}
 
-const page = () => {
+const page = async ({ params }) => {
+  const { slug } = await params;
   return (
     <>
       {/* ColorInit */}
@@ -35,7 +39,7 @@ const page = () => {
       <Breadcrumb title={"Product Details"} />
 
       {/* ProductDetailsTwo */}
-      <ProductDetailsTwo />
+      <ProductDetailsTwo slug={slug} />
 
       {/* NewArrivalTwo */}
       <NewArrivalTwo />
