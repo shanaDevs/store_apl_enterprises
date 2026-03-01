@@ -1,0 +1,354 @@
+{
+  "site": {
+    "name": "APL Trading",
+    "description": "APL Trading - Your trusted B2B product sourcing and inquiry marketplace.",
+    "contact": {
+      "email": "info@apltrading.com",
+      "phone": "+1 800 123 4567",
+      "address": "123 Industrial Way, Suite A, Commerce City, CA 90210"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/apltrading",
+      "twitter": "https://www.twitter.com/apltrading",
+      "linkedin": "https://www.linkedin.com/company/apltrading"
+    }
+  },
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Heavy Machinery",
+      "subcategories": [
+        "Excavators",
+        "Forklifts",
+        "Loaders",
+        "Cranes"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Industrial Supplies",
+      "subcategories": [
+        "Safety Equipment",
+        "Hand Tools",
+        "Power Tools",
+        "Welding"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Electronics & Components",
+      "subcategories": [
+        "Microcontrollers",
+        "Sensors",
+        "Server Racks",
+        "Networking Gear"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Raw Materials",
+      "subcategories": [
+        "Steel Pipes",
+        "Lumber",
+        "Polymers",
+        "Textiles"
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Office & Wholesale",
+      "subcategories": [
+        "Bulk Paper",
+        "Office Furniture",
+        "Packaging Supplies",
+        "Janitorial"
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Construction Materials",
+      "subcategories": [
+        "Cement & Concrete",
+        "Steel & Rebar",
+        "Scaffolding",
+        "Bricks & Blocks",
+        "Roofing Materials",
+        "Insulation",
+        "Tiles & Flooring",
+        "Construction Machinery"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Industrial Diesel Generator 500kVA",
+      "slug": "industrial-diesel-generator-500kva",
+      "category": "Heavy Machinery",
+      "price": "$12,500.00",
+      "moq": 1,
+      "rating": 4.8,
+      "reviews": 12,
+      "image": "/assets/images/products/generated/generator.png",
+      "vendor": "PowerCorp Heavy Industries",
+      "description": "High-capacity diesel generator suitable for backup power in industrial facilities. Features advanced cooling and noise reduction.",
+      "sku": "GEN-500K-DIESEL",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p2",
+      "name": "Wholesale Cotton Textiles (1000m Roll)",
+      "slug": "wholesale-cotton-textiles-1000m-roll",
+      "category": "Raw Materials",
+      "price": "$2,100.00",
+      "moq": 5,
+      "rating": 4.5,
+      "reviews": 34,
+      "image": "/assets/images/products/generated/cotton_rolls.png",
+      "vendor": "Global Fabrics Ltd.",
+      "description": "Premium 100% organic cotton rolls for apparel manufacturing. Width: 1.5m. Available in various base colors.",
+      "sku": "TEX-COT-1000",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p3",
+      "name": "Galvanized Steel Pipes (12 inch)",
+      "slug": "galvanized-steel-pipes-12-inch",
+      "category": "Raw Materials",
+      "price": "$45.00 / meter",
+      "moq": 100,
+      "rating": 4.9,
+      "reviews": 56,
+      "image": "/assets/images/products/generated/steel_pipes.png",
+      "vendor": "Metallica Suppliers",
+      "description": "High-durability galvanized steel pipes grade A106. Ideal for heavy construction and liquid transport. Corrosion resistant.",
+      "sku": "STL-PIP-12G",
+      "availability": "Backordered (2 weeks)"
+    },
+    {
+      "id": "p4",
+      "name": "Enterprise Server Rack 42U",
+      "slug": "enterprise-server-rack-42u",
+      "category": "Electronics & Components",
+      "price": "$850.00",
+      "moq": 2,
+      "rating": 4.7,
+      "reviews": 19,
+      "image": "/assets/images/products/generated/server_rack.png",
+      "vendor": "TechInfra Solutions",
+      "description": "Standard 19-inch 42U server enclosure with perforated doors for optimal airway cooling and cable matching. Includes casters.",
+      "sku": "SRV-RCK-42U",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p5",
+      "name": "Heavy Duty Pallet Jack 3 Ton",
+      "slug": "heavy-duty-pallet-jack-3-ton",
+      "category": "Heavy Machinery",
+      "price": "$320.00",
+      "moq": 5,
+      "rating": 4.6,
+      "reviews": 88,
+      "image": "/assets/images/products/generated/pallet_jack.png",
+      "vendor": "Warehouse Equip Co.",
+      "description": "Manual hydraulic pallet jack with pure polyurethane wheels. Load capacity of 3000kg. Essential warehouse equipment.",
+      "sku": "WH-PAL-3T",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p6",
+      "name": "Bulk Corrugated Packaging Boxes",
+      "slug": "bulk-corrugated-packaging-boxes",
+      "category": "Office & Wholesale",
+      "price": "$0.45 / unit",
+      "moq": 5000,
+      "rating": 4.2,
+      "reviews": 112,
+      "image": "/assets/images/products/generated/packaging_boxes.png",
+      "vendor": "PackIt Logistics",
+      "description": "Standard double-wall corrugated shipping boxes. Dimensions: 12x12x12 inches. 100% recyclable material.",
+      "sku": "BOX-CRG-12X",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p7",
+      "name": "Industrial Safety Helmets (Class E)",
+      "slug": "industrial-safety-helmets-class-e",
+      "category": "Industrial Supplies",
+      "price": "$12.50",
+      "moq": 50,
+      "rating": 4.8,
+      "reviews": 45,
+      "image": "/assets/images/products/generated/safety_helmets.png",
+      "vendor": "SafeWork Gear",
+      "description": "High-impact resistant safety helmets certified Class E (Electrical). Adjustable suspension system for comfort.",
+      "sku": "SAF-HLM-CE",
+      "availability": "In Stock"
+    },
+    {
+      "id": "p8",
+      "name": "High Precision CNC Milling Machine",
+      "slug": "high-precision-cnc-milling-machine",
+      "category": "Heavy Machinery",
+      "price": "$35,000.00",
+      "moq": 1,
+      "rating": 5,
+      "reviews": 4,
+      "image": "/assets/images/products/generated/cnc_machine.png",
+      "vendor": "Global Manufacturing Tech",
+      "description": "5-axis simultaneous CNC milling machine with automatic tool changer. Precision down to 0.001mm.",
+      "sku": "MAC-CNC-5AX",
+      "availability": "Made to Order"
+    },
+    {
+      "id": "c-p1",
+      "name": "Ordinary Portland Cement OPC 53 Grade (50kg Bag)",
+      "slug": "ordinary-portland-cement-opc-53-grade-50kg-bag",
+      "category": "Construction Materials",
+      "price": "$8.50 / bag",
+      "moq": 500,
+      "rating": 4.9,
+      "reviews": 284,
+      "image": "/assets/images/products/generated/cement_bags.png",
+      "vendor": "BuildCo Cement Works",
+      "description": "High-strength OPC 53 Grade cement conforming to IS:12269. Ideal for RCC structures, bridges, and high-strength concrete. 50kg HDPE bags with moisture barrier.",
+      "sku": "CEM-OPC53-50KG",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p2",
+      "name": "TMT Steel Rebar Fe-500D (12mm, 12m Length)",
+      "slug": "tmt-steel-rebar-fe-500d-12mm-12m-length",
+      "category": "Construction Materials",
+      "price": "$720.00 / MT",
+      "moq": 10,
+      "rating": 4.8,
+      "reviews": 196,
+      "image": "/assets/images/products/generated/steel_rebar.png",
+      "vendor": "SteelForge Industries",
+      "description": "Thermo-Mechanically Treated (TMT) reinforcement bars grade Fe-500D. Superior ductility, weldability, and seismic resistance. Certified to IS:1786.",
+      "sku": "STL-TMT-12MM-FE500D",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p3",
+      "name": "Ready-Mix Concrete M30 Grade (Per Cubic Meter)",
+      "slug": "ready-mix-concrete-m30-grade-per-cubic-meter",
+      "category": "Construction Materials",
+      "price": "$95.00 / m³",
+      "moq": 10,
+      "rating": 4.7,
+      "reviews": 67,
+      "image": "/assets/images/products/generated/ready_mix_concrete.png",
+      "vendor": "QuickMix Concrete Co.",
+      "description": "Plant-batched M30 Ready-Mix Concrete conforming to IS:4926. Designed for foundations, columns, and slabs. Available with admixtures for waterproofing and retardation.",
+      "sku": "RMC-M30-CUM",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p4",
+      "name": "Modular Steel Scaffolding System (Frame Set)",
+      "slug": "modular-steel-scaffolding-system-frame-set",
+      "category": "Construction Materials",
+      "price": "$1,850.00 / set",
+      "moq": 5,
+      "rating": 4.6,
+      "reviews": 41,
+      "image": "/assets/images/products/generated/scaffolding.png",
+      "vendor": "SafeHeight Access Systems",
+      "description": "Complete frame scaffolding system with cross braces, platforms, and base plates. Load certified up to 500kg per bay. Hot-dip galvanized for durability.",
+      "sku": "SCAFF-STL-MODULAR",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p5",
+      "name": "AAC Autoclaved Aerated Concrete Blocks (600x200x200mm)",
+      "slug": "aac-autoclaved-aerated-concrete-blocks-600x200x200mm",
+      "category": "Construction Materials",
+      "price": "$0.85 / block",
+      "moq": 2000,
+      "rating": 4.5,
+      "reviews": 153,
+      "image": "/assets/images/products/generated/aac_blocks.png",
+      "vendor": "LightBuild AAC Pvt. Ltd.",
+      "description": "Lightweight AAC blocks with superior thermal insulation and fire resistance. Density: 600 kg/m³. Reduces structural load by 35% vs traditional bricks.",
+      "sku": "BLK-AAC-600X200",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p6",
+      "name": "Bitumen Waterproofing Membrane (4mm APP Modified)",
+      "slug": "bitumen-waterproofing-membrane-4mm-app-modified",
+      "category": "Construction Materials",
+      "price": "$22.00 / roll",
+      "moq": 100,
+      "rating": 4.8,
+      "reviews": 89,
+      "image": "/assets/images/products/generated/waterproofing_membrane.png",
+      "vendor": "DampShield Roofing Solutions",
+      "description": "4mm APP (Atactic Polypropylene) modified bitumen waterproofing membrane. Torch-applied. UV stable and puncture resistant. Suitable for flat roofs and basements.",
+      "sku": "WP-APP-4MM-TORCH",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p7",
+      "name": "Hydraulic Concrete Batching Plant 60 m³/hr",
+      "slug": "hydraulic-concrete-batching-plant-60-mhr",
+      "category": "Construction Materials",
+      "price": "$78,500.00",
+      "moq": 1,
+      "rating": 4.9,
+      "reviews": 9,
+      "image": "/assets/images/products/generated/batching_plant.png",
+      "vendor": "ConcreteMax Machinery",
+      "description": "Fully automated twin-shaft concrete batching plant with 60m³/hour output. Includes cement silos, aggregate bins, conveyor belts, and PLC control system.",
+      "sku": "PLANT-HZS60-BATCH",
+      "availability": "Made to Order"
+    },
+    {
+      "id": "c-p8",
+      "name": "Anti-Corrosion Structural Steel I-Beam (HEB 200)",
+      "slug": "anti-corrosion-structural-steel-i-beam-heb-200",
+      "category": "Construction Materials",
+      "price": "$1,050.00 / MT",
+      "moq": 5,
+      "rating": 4.7,
+      "reviews": 38,
+      "image": "/assets/images/products/generated/i_beams.png",
+      "vendor": "StructoSteel Global",
+      "description": "HEB 200 structural steel I-beams with anti-corrosion primer coat. Grade S355JR. Ideal for mezzanines, columns, and industrial frameworks. Cut to length on order.",
+      "sku": "STL-HEB200-S355",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p9",
+      "name": "20mm Natural Granite Floor Tiles (60x60cm)",
+      "slug": "20mm-natural-granite-floor-tiles-60x60cm",
+      "category": "Construction Materials",
+      "price": "$28.00 / m²",
+      "moq": 200,
+      "rating": 4.6,
+      "reviews": 77,
+      "image": "/assets/images/products/generated/granite_tiles.png",
+      "vendor": "StoneCraft Quarries",
+      "description": "Premium grade natural granite floor tiles in 60x60cm format. Polished finish. Suitable for commercial lobbies, corridors, and high-traffic areas. Slip-resistant coating available.",
+      "sku": "TILE-GRN-6060-POL",
+      "availability": "In Stock"
+    },
+    {
+      "id": "c-p10",
+      "name": "Rock Wool Board Insulation 100mm (1000x600mm)",
+      "slug": "rock-wool-board-insulation-100mm-1000x600mm",
+      "category": "Construction Materials",
+      "price": "$5.40 / board",
+      "moq": 500,
+      "rating": 4.5,
+      "reviews": 62,
+      "image": "/assets/images/products/generated/insulation_boards.png",
+      "vendor": "ThermoGuard Insulation",
+      "description": "High-density rock wool (stone wool) insulation boards for walls, roofs, and industrial pipes. Non-combustible (A1 Euroclass). Thermal conductivity λ = 0.035 W/mK.",
+      "sku": "INS-RW-100MM-BOARD",
+      "availability": "In Stock"
+    }
+  ]
+}
